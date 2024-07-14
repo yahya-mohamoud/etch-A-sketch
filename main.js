@@ -48,8 +48,8 @@ colorBtn.addEventListener("click", () => {
     colorWheel
 })
 
-document.addEventListener('DOMContentLoaded', function() {
-    const colorWheel = document.getElementById('colorEheel');
+document.addEventListener('DOMContentLoaded', function colorPicker() {
+    const colorWheel = document.getElementById('colorWheel');
     const colorBtn = document.getElementById('colorBtn');
 
     colorBtn.addEventListener('click', function() {
