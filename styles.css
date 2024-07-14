@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(90deg, cyan, rgb(102, 102, 152), rgb(53, 90, 53));
+    background: linear-gradient(90deg, rgb(206, 240, 240), rgb(207, 207, 209), rgb(113, 115, 113));
 }
 
 h2{
