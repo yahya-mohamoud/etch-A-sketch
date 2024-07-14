@@ -42,20 +42,26 @@ btn.addEventListener("click", () => {
     gridCell(userSize);
 });
 
-// colorBtn.addEventListener("click", () => {
-//     const colorWheel = document.querySelector("#colorWheel")
-//     colorWheel
-// })
+
 
 const colorPicker = () =>{
-    const colorBtn = document.getElementsByClassName("colorBtn")
     const colorWheel = document.querySelector(".colorWheel")
-
+    
     colorWheel.addEventListener("click", () =>{
         colorWheel.click();
     })
-
+    
+    const colorBtn = document.getElementsByClassName("colorBtn")
+    colorBtn.addEventListener("click", () => {
+        newColor = colorWheel.value;
+    
+    })
 }
+
+// const changeClr = () => {
+
+
+// }
 
 
 // Initial grid creation
