@@ -1,6 +1,5 @@
 const container = document.querySelector(".container");
 const btn = document.querySelector(".btn");
-const colorBtn = document.querySelector(".colorBtn")
 let size = 16;
 
 const gridCell = (size) => {
@@ -48,20 +47,15 @@ colorBtn.addEventListener("click", () => {
     colorWheel
 })
 
-document.addEventListener('DOMContentLoaded', function colorPicker() {
-    const colorWheel = document.getElementById('colorWheel');
-    const colorBtn = document.getElementById('colorBtn');
+const colorPicker = () =>{
+    const colorBtn = document.querySelector(".colorBtn")
+    const colorWheel = document.querySelector(".colorWheel")
 
-    colorBtn.addEventListener('click', function() {
-        // Trigger a click event on the hidden color input
+    colorWheel.addEventListener("click", () =>{
         colorWheel.click();
-    });
+    })
 
-    colorWheel.addEventListener('input', function() {
-        // Handle the color change
-        console.log('Selected color:', colorWheel.value);
-    });
-});
+}
 
 
 // Initial grid creation
