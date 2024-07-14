@@ -1,5 +1,6 @@
 const container = document.querySelector(".container");
 const btn = document.querySelector(".btn");
+const colorBtn = document.querySelector(".colorBtn")
 let size = 16;
 
 const gridCell = (size) => {
@@ -41,6 +42,10 @@ btn.addEventListener("click", () => {
     
     gridCell(userSize);
 });
+
+colorBtn.addEventListener("click", () => {
+    
+})
 
 // Initial grid creation
 gridCell(size);
