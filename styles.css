@@ -41,11 +41,11 @@ h2{
     box-sizing: border-box;
 
 }
-.btn{
+/* .btn{
     margin: 10px;
     align-self: center;
-}
+} */
 
-.colorBtn{
+.btns{
     margin: 10px auto;
 }
