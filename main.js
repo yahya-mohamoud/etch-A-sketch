@@ -44,8 +44,25 @@ btn.addEventListener("click", () => {
 });
 
 colorBtn.addEventListener("click", () => {
-    
+    const colorWheel = document.querySelector("#colorWheel")
+    colorWheel
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    const colorWheel = document.getElementById('colorEheel');
+    const colorBtn = document.getElementById('colorBtn');
+
+    colorBtn.addEventListener('click', function() {
+        // Trigger a click event on the hidden color input
+        colorWheel.click();
+    });
+
+    colorWheel.addEventListener('input', function() {
+        // Handle the color change
+        console.log('Selected color:', colorWheel.value);
+    });
+});
+
 
 // Initial grid creation
 gridCell(size);
