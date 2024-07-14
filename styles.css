@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(90deg, rgb(206, 240, 240), rgb(207, 207, 209), rgb(113, 115, 113));
+    background-color: bisque;
 }
 
 h2{
@@ -19,7 +19,7 @@ h2{
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(270deg, #ffffff, #575656, #7c7c7a);
+    background-color: azure;
 
 }
 
