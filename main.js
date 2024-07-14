@@ -48,7 +48,7 @@ colorBtn.addEventListener("click", () => {
 })
 
 const colorPicker = () =>{
-    const colorBtn = document.querySelector(".colorBtn")
+    const colorBtn = document.getElementsByClassName("colorBtn")
     const colorWheel = document.querySelector(".colorWheel")
 
     colorWheel.addEventListener("click", () =>{
