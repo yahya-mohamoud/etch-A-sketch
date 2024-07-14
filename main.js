@@ -56,6 +56,8 @@ const colorPicker = () =>{
         newColor = colorWheel.value;
     
     })
+
+    
 }
 
 // const changeClr = () => {
