@@ -42,10 +42,10 @@ btn.addEventListener("click", () => {
     gridCell(userSize);
 });
 
-colorBtn.addEventListener("click", () => {
-    const colorWheel = document.querySelector("#colorWheel")
-    colorWheel
-})
+// colorBtn.addEventListener("click", () => {
+//     const colorWheel = document.querySelector("#colorWheel")
+//     colorWheel
+// })
 
 const colorPicker = () =>{
     const colorBtn = document.getElementsByClassName("colorBtn")
