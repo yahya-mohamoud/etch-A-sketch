@@ -44,26 +44,6 @@ btn.addEventListener("click", () => {
 
 
 
-const colorPicker = () =>{
-    const colorWheel = document.querySelector(".colorWheel")
-    
-    colorWheel.addEventListener("click", () =>{
-        colorWheel.click();
-    })
-    
-    const colorBtn = document.getElementsByClassName("colorBtn")
-    colorBtn.addEventListener("click", () => {
-        newColor = colorWheel.value;
-    
-    })
-
-    
-}
-
-// const changeClr = () => {
-
-
-// }
 
 
 // Initial grid creation
