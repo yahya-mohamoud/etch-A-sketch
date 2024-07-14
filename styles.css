@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: linear-gradient(90deg, cyan, blue, green);
 }
 
 h2{
@@ -41,11 +42,8 @@ h2{
     box-sizing: border-box;
 
 }
-/* .btn{
+.btn{
     margin: 10px;
     align-self: center;
-} */
-
-.btns{
-    margin: 10px auto;
 }
+
