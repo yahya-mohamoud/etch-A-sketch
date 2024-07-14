@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: bisque;
+    background-color: rgb(220, 202, 181);
 }
 
 h2{
@@ -18,7 +18,7 @@ h2{
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    background-color: azure;
+    background-color: rgb(178, 198, 198);
 
 }
 
